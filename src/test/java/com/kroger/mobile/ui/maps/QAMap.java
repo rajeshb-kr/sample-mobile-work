@@ -5,7 +5,6 @@ import org.openqa.selenium.By;
 
 public class QAMap {
 
-    public By loginBtn() { return MobileBy.AndroidUIAutomator("new UiSelector().text(\"LOG IN\")"); }
     public By nativeView(){ return By.xpath("//android.widget.TextView[@content-desc='chainedView']");}
     public By longPress(){ return MobileBy.AndroidUIAutomator("new UiSelector().text(\"Long Press\")");}
     public By back() { return MobileBy.AndroidUIAutomator("new UiSelector().text(\"Back\")");}

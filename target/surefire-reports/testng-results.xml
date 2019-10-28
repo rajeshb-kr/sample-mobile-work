@@ -8,18 +8,18 @@
       <![CDATA[<section id='result_1'>]]>
     </line>
     <line>
-      <![CDATA[<br> [TestResult name=tc_Test status=SUCCESS method=TestQA_App.tc_Test()[pri:0, instance:com.kroger.mobile.cases.TestQA_App@7d42c224] output=<style>#result_1{background-color: #43FF33;} #result_2{background-color: pink;} #result_3{background-color: #FFC300;} </style>]]]>
+      <![CDATA[<br> [TestResult name=tc_Test status=SUCCESS method=TestQA_App.tc_Test()[pri:0, instance:com.kroger.mobile.cases.TestQA_App@522a32b1] output=<style>#result_1{background-color: #43FF33;} #result_2{background-color: pink;} #result_3{background-color: #FFC300;} </style>]]]>
     </line>
   </reporter-output>
-  <suite started-at="2019-10-28T17:56:36Z" name="Smoke" finished-at="2019-10-28T17:57:05Z" duration-ms="28894">
+  <suite started-at="2019-10-28T21:00:47Z" name="Smoke" finished-at="2019-10-28T21:01:43Z" duration-ms="56630">
     <groups>
       <group name="smoke">
-        <method signature="TestQA_App.tc_Test()[pri:0, instance:com.kroger.mobile.cases.TestQA_App@7d42c224]" name="tc_Test" class="com.kroger.mobile.cases.TestQA_App"/>
+        <method signature="TestQA_App.tc_Test()[pri:0, instance:com.kroger.mobile.cases.TestQA_App@522a32b1]" name="tc_Test" class="com.kroger.mobile.cases.TestQA_App"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2019-10-28T17:56:36Z" name="test kroger" finished-at="2019-10-28T17:57:05Z" duration-ms="28894">
+    <test started-at="2019-10-28T21:00:47Z" name="test kroger" finished-at="2019-10-28T21:01:43Z" duration-ms="56630">
       <class name="com.kroger.mobile.cases.TestQA_App">
-        <test-method is-config="true" signature="readParameters(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kroger.mobile.cases.TestQA_App@7d42c224]" started-at="2019-10-28T13:56:36Z" name="readParameters" finished-at="2019-10-28T13:56:36Z" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="readParameters(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kroger.mobile.cases.TestQA_App@522a32b1]" started-at="2019-10-28T17:00:47Z" name="readParameters" finished-at="2019-10-28T17:00:47Z" duration-ms="13" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -123,19 +123,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readParameters -->
-        <test-method is-config="true" signature="setupIfSingleSessionSuite()[pri:0, instance:com.kroger.mobile.cases.TestQA_App@7d42c224]" started-at="2019-10-28T13:56:36Z" name="setupIfSingleSessionSuite" finished-at="2019-10-28T13:56:36Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setupIfSingleSessionSuite()[pri:0, instance:com.kroger.mobile.cases.TestQA_App@522a32b1]" started-at="2019-10-28T17:00:47Z" name="setupIfSingleSessionSuite" finished-at="2019-10-28T17:00:47Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupIfSingleSessionSuite -->
-        <test-method is-config="true" signature="springTestContextBeforeTestClass()[pri:0, instance:com.kroger.mobile.cases.TestQA_App@7d42c224]" started-at="2019-10-28T13:56:36Z" name="springTestContextBeforeTestClass" finished-at="2019-10-28T13:56:36Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- springTestContextBeforeTestClass -->
-        <test-method is-config="true" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.kroger.mobile.cases.TestQA_App@7d42c224]" started-at="2019-10-28T13:56:36Z" name="springTestContextPrepareTestInstance" finished-at="2019-10-28T13:56:36Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" duration-ms="275" status="PASS">
+        <test-method is-config="true" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.kroger.mobile.cases.TestQA_App@522a32b1]" started-at="2019-10-28T17:00:47Z" name="springTestContextPrepareTestInstance" finished-at="2019-10-28T17:00:47Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" duration-ms="295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextPrepareTestInstance -->
-        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.kroger.mobile.cases.TestQA_App@7d42c224]" started-at="2019-10-28T13:56:36Z" name="springTestContextBeforeTestMethod" finished-at="2019-10-28T13:56:36Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="springTestContextBeforeTestClass()[pri:0, instance:com.kroger.mobile.cases.TestQA_App@522a32b1]" started-at="2019-10-28T17:00:47Z" name="springTestContextBeforeTestClass" finished-at="2019-10-28T17:00:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.kroger.mobile.cases.TestQA_App@522a32b1]" started-at="2019-10-28T17:00:47Z" name="springTestContextBeforeTestMethod" finished-at="2019-10-28T17:00:47Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -146,11 +146,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method is-config="true" signature="setupNormally()[pri:0, instance:com.kroger.mobile.cases.TestQA_App@7d42c224]" started-at="2019-10-28T13:56:36Z" name="setupNormally" finished-at="2019-10-28T13:56:46Z" duration-ms="9811" status="PASS">
+        <test-method is-config="true" signature="setupNormally()[pri:0, instance:com.kroger.mobile.cases.TestQA_App@522a32b1]" started-at="2019-10-28T17:00:47Z" name="setupNormally" finished-at="2019-10-28T17:01:25Z" duration-ms="37691" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupNormally -->
-        <test-method signature="tc_Test()[pri:0, instance:com.kroger.mobile.cases.TestQA_App@7d42c224]" started-at="2019-10-28T13:56:46Z" name="tc_Test" finished-at="2019-10-28T13:57:04Z" duration-ms="18308" status="PASS">
+        <test-method signature="tc_Test()[pri:0, instance:com.kroger.mobile.cases.TestQA_App@522a32b1]" started-at="2019-10-28T17:01:25Z" name="tc_Test" finished-at="2019-10-28T17:01:43Z" duration-ms="18281" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[<style>#result_1{background-color: #43FF33;} #result_2{background-color: pink;} #result_3{background-color: #FFC300;} </style>]]>
@@ -159,15 +159,15 @@
               <![CDATA[<section id='result_1'>]]>
             </line>
             <line>
-              <![CDATA[<br> [TestResult name=tc_Test status=SUCCESS method=TestQA_App.tc_Test()[pri:0, instance:com.kroger.mobile.cases.TestQA_App@7d42c224] output=<style>#result_1{background-color: #43FF33;} #result_2{background-color: pink;} #result_3{background-color: #FFC300;} </style>]]]>
+              <![CDATA[<br> [TestResult name=tc_Test status=SUCCESS method=TestQA_App.tc_Test()[pri:0, instance:com.kroger.mobile.cases.TestQA_App@522a32b1] output=<style>#result_1{background-color: #43FF33;} #result_2{background-color: pink;} #result_3{background-color: #FFC300;} </style>]]]>
             </line>
           </reporter-output>
         </test-method> <!-- tc_Test -->
-        <test-method is-config="true" signature="teardownNormally()[pri:0, instance:com.kroger.mobile.cases.TestQA_App@7d42c224]" started-at="2019-10-28T13:57:04Z" name="teardownNormally" finished-at="2019-10-28T13:57:04Z" duration-ms="442" status="PASS">
+        <test-method is-config="true" signature="teardownNormally()[pri:0, instance:com.kroger.mobile.cases.TestQA_App@522a32b1]" started-at="2019-10-28T17:01:43Z" name="teardownNormally" finished-at="2019-10-28T17:01:43Z" duration-ms="289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownNormally -->
-        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.kroger.mobile.cases.TestQA_App@7d42c224]" started-at="2019-10-28T13:57:04Z" name="springTestContextAfterTestMethod" finished-at="2019-10-28T13:57:04Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.kroger.mobile.cases.TestQA_App@522a32b1]" started-at="2019-10-28T17:01:43Z" name="springTestContextAfterTestMethod" finished-at="2019-10-28T17:01:43Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -178,11 +178,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method is-config="true" signature="springTestContextAfterTestClass()[pri:0, instance:com.kroger.mobile.cases.TestQA_App@7d42c224]" started-at="2019-10-28T13:57:04Z" name="springTestContextAfterTestClass" finished-at="2019-10-28T13:57:05Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="springTestContextAfterTestClass()[pri:0, instance:com.kroger.mobile.cases.TestQA_App@522a32b1]" started-at="2019-10-28T17:01:43Z" name="springTestContextAfterTestClass" finished-at="2019-10-28T17:01:43Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestClass -->
-        <test-method is-config="true" signature="teardownIfSingleSessionSuite()[pri:0, instance:com.kroger.mobile.cases.TestQA_App@7d42c224]" started-at="2019-10-28T13:57:05Z" name="teardownIfSingleSessionSuite" finished-at="2019-10-28T13:57:05Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="teardownIfSingleSessionSuite()[pri:0, instance:com.kroger.mobile.cases.TestQA_App@522a32b1]" started-at="2019-10-28T17:01:43Z" name="teardownIfSingleSessionSuite" finished-at="2019-10-28T17:01:43Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownIfSingleSessionSuite -->

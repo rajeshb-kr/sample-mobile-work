@@ -1,0 +1,57 @@
+17:00:47|setupNormally|com.krogerqa.seleniumcentral.framework.main.BaseTest|INFO|
+grid: LOCAL
+driverType: APPIUM
+wait: 30
+logging: DEBUG
+applicationName: null
+highlight: false
+singleSessionSuite: false
+mobilePlatformName: ANDROID
+mobilePlatformVersion: 8.1
+udid: Pixel
+androidApkPackege: com.vodqareactnative
+androidApkActivity: com.vodqareactnative.MainActivity
+androidApkPath: /Users/kon1828/mobile_example/apps/VodQA.apk
+appiumPort: 4723
+browser: null
+browserVersion: null
+ieCompatibility: false
+jnlpPath: null
+marathonPath: null
+startWindowTitle: null
+platform: null
+url: null
+bundleId: null
+
+17:00:47|setupNormally|com.krogerqa.seleniumcentral.framework.main.BaseTest|INFO|Starting Mobile Driver
+17:01:25|tc_Test|com.krogerqa.seleniumcentral.framework.main.MobileCommands|INFO|Tap|By.AndroidUIAutomator: new UiSelector().text("LOG IN")
+17:01:25|tc_Test|com.krogerqa.seleniumcentral.framework.main.BaseCommands|INFO|Find elementWhenVisible|By.AndroidUIAutomator: new UiSelector().text("LOG IN")
+17:01:25|tc_Test|com.krogerqa.seleniumcentral.framework.main.BaseCommands|INFO|Wait for visibility of element|By.AndroidUIAutomator: new UiSelector().text("LOG IN")
+17:01:28|tc_Test|com.krogerqa.seleniumcentral.framework.main.MobileCommands|INFO|Tap|By.xpath: //android.widget.TextView[@content-desc='chainedView']
+17:01:28|tc_Test|com.krogerqa.seleniumcentral.framework.main.BaseCommands|INFO|Find elementWhenVisible|By.xpath: //android.widget.TextView[@content-desc='chainedView']
+17:01:28|tc_Test|com.krogerqa.seleniumcentral.framework.main.BaseCommands|INFO|Wait for visibility of element|By.xpath: //android.widget.TextView[@content-desc='chainedView']
+17:01:30|tc_Test|com.krogerqa.seleniumcentral.framework.main.BaseCommands|INFO|Assert element exists|By.xpath: //android.widget.TextView[@text='Native View Demo']
+17:01:30|tc_Test|com.krogerqa.seleniumcentral.framework.main.BaseCommands|INFO|Element exists|By.xpath: //android.widget.TextView[@text='Native View Demo']
+17:01:30|tc_Test|com.krogerqa.seleniumcentral.framework.main.BaseCommands|INFO|Number of elements|By.xpath: //android.widget.TextView[@text='Native View Demo']
+17:01:30|tc_Test|com.krogerqa.seleniumcentral.framework.main.BaseCommands|INFO|Find elements|By.xpath: //android.widget.TextView[@text='Native View Demo']
+17:01:30|tc_Test|com.krogerqa.seleniumcentral.framework.main.BaseCommands|INFO|Wait for visibility of element|By.xpath: //android.widget.TextView[@text='Native View Demo']
+17:01:31|tc_Test|com.krogerqa.seleniumcentral.framework.main.MobileCommands|INFO|Tap|By.AndroidUIAutomator: new UiSelector().text("Back")
+17:01:31|tc_Test|com.krogerqa.seleniumcentral.framework.main.BaseCommands|INFO|Find elementWhenVisible|By.AndroidUIAutomator: new UiSelector().text("Back")
+17:01:31|tc_Test|com.krogerqa.seleniumcentral.framework.main.BaseCommands|INFO|Wait for visibility of element|By.AndroidUIAutomator: new UiSelector().text("Back")
+17:01:34|tc_Test|com.krogerqa.seleniumcentral.framework.main.MobileCommands|INFO|Tap|By.AndroidUIAutomator: new UiSelector().text("Long Press")
+17:01:34|tc_Test|com.krogerqa.seleniumcentral.framework.main.BaseCommands|INFO|Find elementWhenVisible|By.AndroidUIAutomator: new UiSelector().text("Long Press")
+17:01:34|tc_Test|com.krogerqa.seleniumcentral.framework.main.BaseCommands|INFO|Wait for visibility of element|By.AndroidUIAutomator: new UiSelector().text("Long Press")
+17:01:36|tc_Test|com.krogerqa.seleniumcentral.framework.main.BaseCommands|INFO|Assert element exists|By.xpath: //android.widget.TextView[@text='Long Press Demo']
+17:01:36|tc_Test|com.krogerqa.seleniumcentral.framework.main.BaseCommands|INFO|Element exists|By.xpath: //android.widget.TextView[@text='Long Press Demo']
+17:01:36|tc_Test|com.krogerqa.seleniumcentral.framework.main.BaseCommands|INFO|Number of elements|By.xpath: //android.widget.TextView[@text='Long Press Demo']
+17:01:36|tc_Test|com.krogerqa.seleniumcentral.framework.main.BaseCommands|INFO|Find elements|By.xpath: //android.widget.TextView[@text='Long Press Demo']
+17:01:36|tc_Test|com.krogerqa.seleniumcentral.framework.main.BaseCommands|INFO|Wait for visibility of element|By.xpath: //android.widget.TextView[@text='Long Press Demo']
+17:01:36|tc_Test|com.krogerqa.seleniumcentral.framework.main.MobileCommands|INFO|Long tap|By.AccessibilityId: longpress
+17:01:36|tc_Test|com.krogerqa.seleniumcentral.framework.main.BaseCommands|INFO|Find elementWhenVisible|By.AccessibilityId: longpress
+17:01:36|tc_Test|com.krogerqa.seleniumcentral.framework.main.BaseCommands|INFO|Wait for visibility of element|By.AccessibilityId: longpress
+17:01:40|tc_Test|com.krogerqa.seleniumcentral.framework.main.MobileCommands|INFO|Tap|By.id: android:id/button1
+17:01:40|tc_Test|com.krogerqa.seleniumcentral.framework.main.BaseCommands|INFO|Find elementWhenVisible|By.id: android:id/button1
+17:01:40|tc_Test|com.krogerqa.seleniumcentral.framework.main.BaseCommands|INFO|Wait for visibility of element|By.id: android:id/button1
+17:01:41|tc_Test|com.krogerqa.seleniumcentral.framework.main.MobileCommands|INFO|Tap|By.AndroidUIAutomator: new UiSelector().text("Back")
+17:01:41|tc_Test|com.krogerqa.seleniumcentral.framework.main.BaseCommands|INFO|Find elementWhenVisible|By.AndroidUIAutomator: new UiSelector().text("Back")
+17:01:41|tc_Test|com.krogerqa.seleniumcentral.framework.main.BaseCommands|INFO|Wait for visibility of element|By.AndroidUIAutomator: new UiSelector().text("Back")

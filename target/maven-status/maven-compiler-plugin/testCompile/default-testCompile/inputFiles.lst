@@ -1,3 +1,5 @@
-/Users/kon1828/mobilesample/src/test/java/com/kroger/mobile/ui/maps/QAMap.java
-/Users/kon1828/mobilesample/src/test/java/com/kroger/mobile/ui/pages/QAPage.java
-/Users/kon1828/mobilesample/src/test/java/com/kroger/mobile/cases/TestQA_App.java
+/Users/kon1828/mobile_example/src/test/java/com/kroger/mobile/ui/pages/LoginPage.java
+/Users/kon1828/mobile_example/src/test/java/com/kroger/mobile/ui/pages/QAPage.java
+/Users/kon1828/mobile_example/src/test/java/com/kroger/mobile/cases/TestQA_App.java
+/Users/kon1828/mobile_example/src/test/java/com/kroger/mobile/ui/maps/QAMap.java
+/Users/kon1828/mobile_example/src/test/java/com/kroger/mobile/ui/maps/LoginMap.java
