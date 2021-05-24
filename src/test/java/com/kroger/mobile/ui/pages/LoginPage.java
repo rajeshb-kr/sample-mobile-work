@@ -10,8 +10,16 @@ public class LoginPage{
 
 
 public void login(){
-    mobileCommands.tap(loginMap.loginBtn());
+   mobileCommands.tap(loginMap.loginBtn());
+}
 
+public void loginWrongPassword()  {
+    mobileCommands.enterText(loginMap.passwordField(), "admin123", true);
+    mobileCommands.tap(loginMap.loginBtn());
+    mobileCommands.assertElementExists(loginMap.errorMessage(), true);
+    mobileCommands.tap(loginMap.okButton());
+    mobileCommands.enterText(loginMap.passwordField(), "admin", true);
+    mobileCommands.tap(loginMap.loginBtn());
 }
 
 }

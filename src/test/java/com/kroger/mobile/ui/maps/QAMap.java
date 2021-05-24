@@ -12,4 +12,12 @@ public class QAMap {
     public By viewOneLabel(){return By.xpath("//android.widget.TextView[@text='Native View Demo']");}
     public By longPressLabel(){return By.xpath("//android.widget.TextView[@text='Long Press Demo']");}
     public By okBtn(){return By.id("android:id/button1");}
+
+    public By loginSuccessLabel() {return By.xpath("//android.widget.TextView[@text='Samples List']");}
+    public By verticalSwipe() {return By.xpath("//android.widget.TextView[@content-desc=\"verticalSwipe\"]");}
+    public By verticalSwipeLabel() {return By.xpath("//android.widget.TextView[@text='Vertical swiping']");}
+
+    public By carousel() {return By.xpath("//android.widget.TextView[@content-desc=\"carousel\"]");}
+    public By carouselLabel() {return By.xpath("//android.widget.TextView[@text='Carousel - Swipe left/right']");}
+
 }

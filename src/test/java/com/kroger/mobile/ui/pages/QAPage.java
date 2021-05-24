@@ -28,4 +28,23 @@ public class QAPage {
         mobileCommands.tap(qaMap.okBtn());
 
     }
+
+    public void verticalSwipe () {
+        mobileCommands.assertElementExists(qaMap.loginSuccessLabel(), true);
+        mobileCommands.tap(qaMap.verticalSwipe());
+        mobileCommands.assertElementExists(qaMap.verticalSwipeLabel(), true);
+        mobileCommands.scrollDown();
+        back();
+    }
+
+    public void carousel () {
+        mobileCommands.waitForElementVisibility(qaMap.loginSuccessLabel());
+        mobileCommands.scrollDown();
+        mobileCommands.tap(qaMap.carousel());
+        mobileCommands.assertElementExists(qaMap.carouselLabel(), true);
+        mobileCommands.swipeRight();
+        mobileCommands.swipeRight();
+        mobileCommands.swipeLeft();
+        back();
+    }
 }
